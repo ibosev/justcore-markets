@@ -1,0 +1,8 @@
+.explorer { display: flex; flex-direction: column; gap: 10px; min-height: 0; height: 100%; }
+.explorer-filters { display: flex; gap: 8px; flex-wrap: wrap; }
+.explorer-filters input { flex: 1 1 200px; }
+.explorer .table-wrap { flex: 1; min-height: 0; overflow: auto; }
+.explorer .table td.ellipsis { max-width: 170px; }
+.explorer .table tbody tr { cursor: pointer; }
+.pager { display: flex; align-items: center; gap: 8px; justify-content: flex-end; }
+.pager .muted { margin-right: auto; }

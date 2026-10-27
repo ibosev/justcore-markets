@@ -1,0 +1,15 @@
+.portfolio { display: flex; flex-direction: column; gap: 12px; }
+.storage-note { margin-left: auto; align-self: center; }
+.summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 8px; }
+.summary div { background: var(--surface-2); border-radius: 8px; padding: 10px 12px; display: flex; flex-direction: column; gap: 2px; }
+.summary span { color: var(--muted); font-size: .75rem; }
+.summary b { font-size: 1.15rem; }
+.wallet-chart svg { width: 100%; height: 160px; display: block; cursor: crosshair; touch-action: none; }
+.wallet-chart .value-line { stroke-width: 1.8; }
+.wallet-chart .cost-line { stroke: var(--muted); stroke-width: 1.2; stroke-dasharray: 4 3; }
+.wallet-chart .crosshair { stroke: var(--muted); stroke-dasharray: 3 3; }
+.legend-cost { color: var(--muted); }
+.portfolio .table tbody tr:not(.lot-row) { cursor: pointer; }
+.portfolio .lot-row td { background: var(--surface-2); font-size: .85rem; }
+.portfolio .ellipsis { max-width: 220px; }
+.spark { width: 80px; height: 24px; display: block; }

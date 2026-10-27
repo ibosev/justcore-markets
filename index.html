@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>justcore markets</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M1 12l4-5 3 3 6-8' stroke='%2334d399' stroke-width='2' fill='none'/></svg>">
+</head>
+<body>
+    <header class="app-header">
+        <div class="brand"><span class="brand-mark">◆</span> justcore <b>markets</b></div>
+        <nav class="module-toggles" aria-label="Running modules"></nav>
+    </header>
+
+    <main class="layout">
+        <section class="panel panel-ticker" data-module="ticker" data-framework="Vanilla JS">
+            <div class="panel-body"></div>
+        </section>
+        <section class="panel panel-explorer" data-module="explorer" data-framework="React">
+            <h2 class="panel-title">Market explorer</h2>
+            <div class="panel-body"></div>
+        </section>
+        <section class="panel panel-quote" data-module="quote" data-framework="Svelte">
+            <h2 class="panel-title">Quote &amp; history</h2>
+            <div class="panel-body"></div>
+        </section>
+        <section class="panel panel-portfolio" data-module="portfolio" data-framework="SolidJS">
+            <h2 class="panel-title">Wallet &amp; watchlist</h2>
+            <div class="panel-body"></div>
+        </section>
+        <section class="panel panel-inspector" data-module="inspector" data-framework="Vanilla JS">
+            <h2 class="panel-title">Message bus</h2>
+            <div class="panel-body"></div>
+        </section>
+    </main>
+
+    <footer class="app-footer">
+        Data: Yahoo Finance (quotes, history, search) and Nasdaq Trader symbol directory (US listings). Delayed, for demonstration only.
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
